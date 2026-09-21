@@ -13,7 +13,8 @@ echo "============================================================"
 echo ""
 
 # Process all datasets
-uv run docker compose exec self_iterative_refinement uv run src/constraint_learning_rlhf/preprocess/format_dataset.py --dataset all
+uv run src/constraint_learning_rlhf/preprocess/format_dataset.py --dataset all
+# uv run docker compose exec self_iterative_refinement uv run src/constraint_learning_rlhf/preprocess/format_dataset.py --dataset all
 
 echo ""
 echo "============================================================"
